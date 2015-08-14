@@ -8,3 +8,8 @@ http://rs.lifebox.vn/ResourceServer/service/request-resource
 
 http://rs.lifebox.vn/ResourceServer/service/download
 downloadFilePath=&actualReceivedBytes=&accessToken=
+
+
+http://rs.lifebox.vn/ResourceServer/service/request-resource
+
+jsonRequest={"accessToken":"5ebb9e348444d05e2801570d7209e2c74e32e3de691ed47399076c0c56cebba840d264d74524ceadb488da2efe69e85081d11f0eb1af5abafc9accfb727b1d4f","actionParams":{"capacityId":1},"actionName":"RegisterUserCapacity"}

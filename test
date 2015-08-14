@@ -2,4 +2,4 @@
 
 http://rs.lifebox.vn/ResourceServer/service/request-resource
 
-{"accessToken":"5ebb9e348444d05e2801570d7209e2c74e32e3de691ed47399076c0c56cebba840d264d74524ceadb488da2efe69e85081d11f0eb1af5abafc9accfb727b1d4f","actionParams":{"message":"","receivedAliases":["0977966393"],"filePath":""},"actionName":"NotifySendingFile"}
+{"accessToken":"5ebb9e348444d05e2801570d7209e2c74e32e3de691ed47399076c0c56cebba840d264d74524ceadb488da2efe69e85081d11f0eb1af5abafc9accfb727b1d4f","actionParams":{"message":"74657374","receivedAliases":["0977966393"],"filePath":"66696c65312e706e67"},"actionName":"NotifySendingFile"}

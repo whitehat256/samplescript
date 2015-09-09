@@ -4,3 +4,17 @@
 /Pages/eNewLetterUserManagement.aspx
 /Pages/eNewLetterConfig.aspx
 /Containers.aspx
+
+https://payment.smartlink.com.vn/vpcpay.do
+?vpc_AccessCode=V1E2T3T4E5L6
+&vpc_Version=1.1
+&vpc_Command=pay
+&vpc_OrderInfo=0977966393
+&vpc_Locale=vn
+&vpc_Merchant=VIETTEL
+&vpc_TicketNo=10.58.62.170
+&vpc_Amount=10000000
+&vpc_SecureHash=C7C57D7E4059972C14C2A5E43984A627
+&vpc_ReturnURL=https://pay.viettel.vn/Receiver!onSmartlink.do
+&vpc_Currency=VND
+&vpc_MerchTxnRef=150909084610499

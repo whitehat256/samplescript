@@ -14,8 +14,7 @@ https://payment.smartlink.com.vn/vpcpay.do
 
 
 https://pay.viettel.vn/Receiver!onSmartlink.do
-?vpc_Acaunqu=V1E2T3T4E5L610000000payVNDvn150910111808140VIETTEL0977966393https://pay.viettel.vn/Receiver!onSmartlink.do10.58.62.1701.1%80%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%C8%04%00%00%00%00%00%00
-&vpc_AcqResponseCode=
+?vpc_AcqResponseCode=V1E2T3T4E5L610000000payVNDvn150910113642133VIETTEL0977966393https://pay.viettel.vn/Receiver!onSmartlink.do10.58.62.1701.1\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc8\x04\x00\x00\x00\x00\x00\x00
 &vpc_AdditionalData=
 &vpc_Amount=10000000
 &vpc_BatchNo=
@@ -23,13 +22,14 @@ https://pay.viettel.vn/Receiver!onSmartlink.do
 &vpc_Command=pay
 &vpc_CurrencyCode=VND
 &vpc_Locale=vn
-&vpc_MerchTxnRef=150910111808140
+&vpc_MerchTxnRef=150910113642133
 &vpc_Message=
 &vpc_OrderInfo=0977966393
 &vpc_Merchant=VIETTEL
 &vpc_ResponseCode=0
 &vpc_TransactionNo=
 &vpc_Version=1.1
-&vpc_SecureHash=66048C931E0FB4D9DB2B77D5A5B5F58F
+&vpc_SecureHash=CE133285165FE9C88E425F71A1D842BE
+
 
 \x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc8\x04\x00\x00\x00\x00\x00\x00

@@ -34,3 +34,22 @@ https://pay.viettel.vn/Receiver!onSmartlink.do
 
 
 \x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc8\x04\x00\x00\x00\x00\x00\x00
+
+https://pay.viettel.vn/Receiver!onSmartlink.do
+?vpc_AcqResponseCode=
+&vpc_AdditionalData=V1E2T3T4E5L6
+&vpc_Amount=5000000
+&vpc_BatchNo=
+&vpc_CardType=
+&vpc_Command=pay
+&vpc_CurrencyCode=VND
+&vpc_Locale=vn
+&vpc_Message=
+&vpc_MerchTxnRef=150910150514240
+&vpc_Merchant=VIETTEL
+&vpc_OrderInfo=
+&vpc_ResponseCode=0
+&vpc_TransactionAnoun=977966393https%3A%2F%2Fpay.viettel.vn%2FReceiver%21onSmartlink.do10.58.62.170
+&vpc_TransactionNo=
+&vpc_Version=1.1
+&vpc_SecureHash=FA1104647E03695BC3AA998E92D3E11E

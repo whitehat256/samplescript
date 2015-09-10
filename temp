@@ -7,10 +7,10 @@ https://payment.smartlink.com.vn/vpcpay.do
 &vpc_Merchant=VIETTEL
 &vpc_TicketNo=10.58.62.170
 &vpc_Amount=10000000
-&vpc_SecureHash=DA2E70F1E533CAF78931473DA7C3F81C
+&vpc_SecureHash=7C15848D1ADC9E9AA7A5685FD89EDA80
 &vpc_ReturnURL=https://pay.viettel.vn/Receiver!onSmartlink.do
 &vpc_Currency=VND
-&vpc_MerchTxnRef=150910113642133
+&vpc_MerchTxnRef=150910143217236
 
 
 https://pay.viettel.vn/Receiver!onSmartlink.do

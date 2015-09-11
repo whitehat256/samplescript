@@ -1,8 +1,37 @@
 
+<?php
+$m0 = "%80%00%C8";
+$m0 = urldecode($m0);
+echo $m0."</br>";
+for($i = 0; $i < strlen($m0); $i++)
+{
+   echo ord($m0[$i])."<br/>";
+}
+
+$m0 = urlencode($m0);
+echo $m0."</br>";
+
 $secrete = "12345678901234567890123456789012";
 $m1="V1E2T3T4E5L610000000payVNDvn150909150307714VIETTEL0977966393https://pay.viettel.vn/Receiver!onSmartlink.do10.58.62.1701.1";
 $padding = "%80%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%C8%04%00%00%00%00%00%00";
 $m2= "10000000payVNDvn150909150307714VIETTEL097796639301.1";
+$m3 = "12345678901234567890123456789012V1E2T3T4E5L610000000payVNDvn150909150307714VIETTEL0977966393https://pay.viettel.vn/Receiver!onSmartlink.do10.58.62.1701.1%80%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%C8%04%00%00%00%00%00%0010000000payVNDvn150909150307714VIETTEL097796639301.1";
 
-echo strtoupper(md5($secrete + urldecode($padding)));
-echo strtoupper(md5($secrete + urldecode($padding) + $m2));
+$m4 = "12345678901234567890123456789012V1E2T3T4E5L610000000payVNDvn150909150307714VIETTEL0977966393https://pay.viettel.vn/Receiver!onSmartlink.do10.58.62.1701.1%80%C8%0410000000payVNDvn150909150307714VIETTEL097796639301.1";
+
+$padding = urldecode($padding);
+echo $padding."</br>";
+
+$m3 = urldecode($m3);
+echo $m3."</br>";
+
+$m4 = urldecode($m4);
+echo $m4."</br>";
+
+echo strtoupper(md5($secrete.$m1))."</br>";
+echo strtoupper(md5($secrete.$m1.$padding.$m2))."</br>";
+echo strtoupper(md5($m3))."</br>";
+echo strtoupper(md5($m4))."</br>";
+
+
+?>
